@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter",sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root{
+    --primary:#0052FF;
+    --dark:#000;
+    --secondary-dark:#0A0B0D;
+    --light:#fff;
+    --grey:rgba(217, 217, 217, 0.50);
+    --secondary-grey:#5B616E;
+}
+
+/* ========SPECIAL ELEMENTS=========== */
+.btn-transparent{
+    color: var(--dark);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 66px;
+}
+
+.btn-filled{
+    width: 433px;
+    height: 62px;
+    display: block;
+    border-radius: 50px;
+    background: var(--primary);
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 62px;
+    text-align: center;
+    margin-left: 195px;
+
+}
+
+/* ===============STYLING==================== */
+
+.navbar{
+    width: 80%;
+    height: 66px;
+}
+
+.navbar .logo{
+    display: inline-block;
+    color: var(--primary);
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 15px 950px 15px 88px;
+}
+
+.navbar .line{
+    width: 80%;
+    height: 1px;
+    background: var(--grey);
+}
+.header{
+    width: 80%;
+    height: 654px;
+    position: relative;
+}
+
+.header .info{
+    width: 60%;
+    height: 654px;
+    display: inline-block;
+}
+.header .img-container{
+    width: 40%;
+    height: 654;
+    display: inline-block;
+    position: absolute;
+    left: 65%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    margin:  57px 141px  90px 48px;
+}
+
+
+.header .info .info-head{
+    color: var(--secondary-dark) ;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 40px 24px 8px 20px;
+}
+
+.header .info .info-head .forward{
+    margin: 50px 20px 8px  150px;
+}
+
+.header .info .info-text{
+    color: var(--secondary-dark);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 8px 20px 20px 225px;
+}
+
+.header .info .form label{
+    color: var(--secondary-dark);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    margin: 15px 20px 10px 197px;
+}
+
+.header .info .form input{
+    width: 433px;
+    height: 62px;
+    border-radius: 10px;
+    border: 1px solid #EEF0F3;
+    background: var(--light);
+    color: var(--secondary-grey);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 20px;
+    margin: 10px  20px 15px 197px;
+}
+
+.header .info .form .full-name label{
+    color: var(--secondary-dark);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: block;
+    margin: 15px 20px 10px 197px;
+
+}
+
+.header .info .form .full-name input{
+    width: 195px;
+    height: 62px;
+    border-radius: 10px;
+    border: 1px solid #EEF0F3;
+    background: var(--light);
+    color: var(--secondary-grey);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 20px;
+    margin: 10px  20px 15px 197px;
+}
+
+.header .info .form .full-name .first-name, .header .info .form .full-name .last-name{
+    display: inline-block;
+}
+
+
+.header .info  input[type="checkbox"]{
+    display: inline-block;
+    margin-left: 197px;
+    position: relative;
+    top: -15px;
+   
+} 
+
+.header .info .agreement-text{
+    width: 419px;
+    height: 38px;
+    display: inline-block;
+    color: var(--dark);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 7px 8px;
+}
+
+.header .info .agreement-text>a{
+    color: var(--primary);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
